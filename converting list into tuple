@@ -1,0 +1,3 @@
+list1 = [10, 20, 30, 40]
+t = tuple(list1)
+print("Converted tuple:", t)
