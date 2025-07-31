@@ -1,0 +1,10 @@
+d = {'a': 1, 'b': 2, 'c': 3}
+print("Keys:")
+for key in d:
+    print(key)
+print("Values:")
+for value in d.values():
+    print(value)
+print("Keys and Values:")
+for key, value in d.items():
+    print(key, ":", value)
