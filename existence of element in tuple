@@ -1,0 +1,6 @@
+t = (1, 2, 3, 4, 5)
+item = int(input("Enter an element to search: "))
+if item in t:
+    print(item, "exists in the tuple.")
+else:
+    print(item, "does not exist in the tuple.")
