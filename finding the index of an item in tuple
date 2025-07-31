@@ -1,0 +1,7 @@
+t = (5, 10, 15, 20, 25)
+item = int(input("Enter element to find index: "))
+if item in t:
+    index = t.index(item)
+    print("Index of", item, "is:", index)
+else:
+    print(item, "not found in the tuple.")
